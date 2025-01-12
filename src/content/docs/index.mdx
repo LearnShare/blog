@@ -1,0 +1,35 @@
+---
+title: Hello
+template: splash
+hero:
+  title: '新的开始'
+  tagline: '（也许是新的坑）'
+---
+
+import {
+  CardGrid,
+  Card,
+  Icon,
+} from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+  <Card
+      icon="github"
+      title="关于我">
+    + 前端开发，React 和 Vue
+    + 《[CSS入门与实践](http://www.tup.tsinghua.edu.cn/booksCenter/book_07765201.html)》 2018 年已出版
+    + 寻找新的工作机会：远程，兼职、全职、外包等方式均可
+    + 请联系：learnshare.hjq#gmail
+  </Card>
+  <Card
+      icon="external"
+      title="链接">
+    + Github: [LearnShare](https://github.com/LearnShare/)
+  </Card>
+  <Card
+      icon="open-book"
+      title="文章">...</Card>
+  <Card
+      icon="list-format"
+      title="专题">...</Card>
+</CardGrid>
