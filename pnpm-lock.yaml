@@ -17,6 +17,9 @@ importers:
       sharp:
         specifier: ^0.32.5
         version: 0.32.6
+      starlight-sidebar-topics:
+        specifier: ^0.3.0
+        version: 0.3.0(@astrojs/starlight@0.30.5(astro@5.1.4(rollup@4.30.1)(typescript@5.7.3)))
 
 packages:
 
@@ -1796,6 +1799,12 @@ packages:
 
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
+
+  starlight-sidebar-topics@0.3.0:
+    resolution: {integrity: sha512-B7ma+xtRNBHtxEYi5yGYtAnJZviAoj1PXNh5CjuoEqKIBVB7uRAjWsWuPLzv/OrY81jHRjaZc3ilw5mNzks7kg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.30.0'
 
   stream-replace-string@2.0.0:
     resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
@@ -4440,6 +4449,10 @@ snapshots:
   space-separated-tokens@2.0.2: {}
 
   sprintf-js@1.0.3: {}
+
+  starlight-sidebar-topics@0.3.0(@astrojs/starlight@0.30.5(astro@5.1.4(rollup@4.30.1)(typescript@5.7.3))):
+    dependencies:
+      '@astrojs/starlight': 0.30.5(astro@5.1.4(rollup@4.30.1)(typescript@5.7.3))
 
   stream-replace-string@2.0.0: {}
 
