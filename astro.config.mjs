@@ -42,6 +42,26 @@ export default defineConfig({
                     label: '概述',
                     link: '/topics/design-system',
                   },
+                  {
+                    label: '主题',
+                    collapsed: true,
+                    items: [
+                      {
+                        label: '尺寸',
+                        link: '/topics/design-system/topics/size',
+                      },
+                    ],
+                  },
+                  {
+                    label: '组件',
+                    collapsed: true,
+                    items: [
+                      {
+                        label: '按钮',
+                        link: '/topics/design-system/components/button',
+                      },
+                    ],
+                  },
                 ],
               },
             ],
