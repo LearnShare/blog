@@ -50,6 +50,30 @@ export default defineConfig({
                         label: '尺寸',
                         link: '/topics/design-system/topics/size',
                       },
+                      {
+                        label: '颜色',
+                        link: '/topics/design-system/topics/color',
+                      },
+                      {
+                        label: '层级',
+                        link: '/topics/design-system/topics/layer',
+                      },
+                      {
+                        label: '状态',
+                        link: '/topics/design-system/topics/status',
+                      },
+                      {
+                        label: '布局',
+                        link: '/topics/design-system/topics/layout',
+                      },
+                      {
+                        label: '文字',
+                        link: '/topics/design-system/topics/font',
+                      },
+                      {
+                        label: '动画',
+                        link: '/topics/design-system/topics/anim',
+                      },
                     ],
                   },
                   {
