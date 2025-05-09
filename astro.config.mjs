@@ -71,8 +71,36 @@ export default defineConfig({
                         link: '/topics/design-system/topics/font',
                       },
                       {
-                        label: '动画',
+                        label: '排版',
+                        link: '/topics/design-system/topics/typography',
+                      },
+                      {
+                        label: '图形和图像',
+                        link: '/topics/design-system/topics/image',
+                      },
+                      {
+                        label: '动画和视频',
                         link: '/topics/design-system/topics/anim',
+                      },
+                      {
+                        label: '输入和操作',
+                        link: '/topics/design-system/topics/input',
+                      },
+                      {
+                        label: '输出和反馈',
+                        link: '/topics/design-system/topics/feedback',
+                      },
+                      {
+                        label: '导航',
+                        link: '/topics/design-system/topics/navigation',
+                      },
+                      {
+                        label: '文案',
+                        link: '/topics/design-system/topics/message',
+                      },
+                      {
+                        label: '国际化和本地化',
+                        link: '/topics/design-system/topics/i18n',
                       },
                     ],
                   },
